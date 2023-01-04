@@ -49,9 +49,7 @@ for (let i = 0; i < 1000; i++) {
     simulate(starting);
 }
 
-let saveObject = [
-    results
-]
+let saveObject = results
 
 let jsonSaveObject = JSON.stringify(saveObject);
 
