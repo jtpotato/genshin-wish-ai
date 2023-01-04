@@ -37,7 +37,11 @@ const simulate = (currentPity = 0) => {
     }
   }
 
-  results.push([currentPity, pity, standardCharacter])
+  results.push({
+    starting_pity: currentPity,
+    pity: pity,
+    standard: standardCharacter
+  })
 };
 
 for (let i = 0; i < 1000; i++) {
